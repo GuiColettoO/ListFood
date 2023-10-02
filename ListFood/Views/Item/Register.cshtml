@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+@model Item
+
+<alert texto="@TempData["message"]"></alert>
+
+<form asp-action="Register">
+
+    <partial name="_Form"></partial>
+
+    <button class="btn btn-primary">Register</button>
+</form>
